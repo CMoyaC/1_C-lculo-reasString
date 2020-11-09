@@ -7,6 +7,7 @@ LAS OPCIONES SERÍAN CIRCULO O CUADRILATERO
             - SI ES RECTÁNGULO TENDRÉ QUE PEDIR 2 DATOS Y CALCULO EL AREA
     - SERÁ NECESARIO CONTROLAR QUE NINGUNO DE LOS DATOS INTRODUCIDOS POR TECLADO SEA MENOR O IGUAL A CERO
 */
+/*Primera versión del ejercicio de cálculo de áreas para probar Git+GitHub+NetBeans*/
 package calculoareas;
 
 import java.util.Scanner;
@@ -20,7 +21,7 @@ public class Calculoareas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        
         String error = "HA SUPERADO EL NÚMERO MÁXIMO DE INTENTOS PERMITIDOS, LA APLICACIÓN PROCEDE A CERRARSE.";
         String bienvenida = "BIENVENIDO A LA APLICACIÓN DE CÁLCULO DE ÁREA. SI DESEA CALCULAR EL ÁREA DE UN CÍRCULO PULSE EL NÚMERO 1, SI DESEA CALCULAR EL ÁREA DE UN CUADRILÁTERO PULSE EL NÚMERO 2.";
         String selcirc = "HA SELECCIONADO EL CÁLCULO DE ÁREA DE UN CÍRCULO. POR FAVOR, INTRODUZCA EL VALOR DEL RADIO DE SU CÍRCULO EN METROS: ";
